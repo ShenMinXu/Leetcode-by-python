@@ -23,6 +23,19 @@ P     I    N
 A   L S  I G
 Y A   H R
 P     I
+
+方法一：按行排序
+思路
+
+通过从左向右迭代字符串，我们可以轻松地确定字符位于 Z 字形图案中的哪一行。
+
+算法
+
+
+
+从左到右迭代 s，将每个字符添加到合适的行。可以使用当前行和当前方向这两个变量对合适的行进行跟踪。
+
+只有当我们向上移动到最上面的行或向下移动到最下面的行时，当前方向才会发生改变。
 '''
 
 
@@ -34,17 +47,18 @@ class Solution:
         :rtype: str
         """
         l = len(s)
-        step  = 2*numRows-2
-        if not l or step < 0 :
+        if numRows == 1 or l <= numRows:
             return s
         res = ["" for i in range(numRows)]
+        flag1 = 0
+        flag2 = 1
         for i in range(l):
-            n = i % step
-            if n<numRows:
-                res[n]+=s[i]
-            else:
-                res[step-n] +=s[i]
+            res[flag1] += s[i]
+            flag1 += flag2
+            if flag1 == numRows - 1 or flag1 == 0:
+                flag2 = flag2 * -1
         return ''.join(res)
+
 
 if __name__=='__main__':
     test = Solution()
