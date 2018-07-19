@@ -57,9 +57,12 @@ class Solution:
             if i != 1 and s[i-2:i] < "27" and s[i-2:i] > "09":  #"01"ways = 0
                 dp[i] += dp[i-2]
         return dp[len(s)]
+        
+            
+        
             
 test= Solution()
-b =test.numDecodings('1234')
+b =test.numDecodings('226')
 print(b)
 
                 
