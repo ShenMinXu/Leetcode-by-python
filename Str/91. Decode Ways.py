@@ -41,6 +41,10 @@ Explanation: It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 输入: "226"
 输出: 3
 解释: 它可以解码为 "BZ" (2 26), "VF" (22 6), 或者 "BBF" (2 2 6) 。
+
+题目类似于LeetCode70——Climbing Stairs
+dp方程可以简单的记为：dp(i+1)=dp(i)+dp(i-1)
+处理一下为0的特殊情况
 """
 class Solution:
     def numDecodings(self, s):
@@ -62,7 +66,7 @@ class Solution:
         
             
 test= Solution()
-b =test.numDecodings('226')
+b =test.numDecodings('2')
 print(b)
 
                 
