@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6851066e-7a37-47c6-a0ae-4be9d8245dd7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BackTracking/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode-by-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode-by-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherNiceProblem/FindTheNum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTracking/39. Combination Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTracking/39. Combination Sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="39. Combination Sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="39. Combination Sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BackTracking/39. Combination Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="678">
+              <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTheNum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OtherNiceProblem/FindTheNum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -93,6 +99,7 @@
         <option value="$PROJECT_DIR$/Array/31. Next Permutation.py" />
         <option value="$PROJECT_DIR$/BackTracking/readme.txt" />
         <option value="$PROJECT_DIR$/BackTracking/39. Combination Sum.py" />
+        <option value="$PROJECT_DIR$/OtherNiceProblem/FindTheNum.py" />
       </list>
     </option>
   </component>
@@ -122,6 +129,11 @@
               <item name="Leetcode-by-python" type="462c0819:PsiDirectoryNode" />
               <item name="BackTracking" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode-by-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-by-python" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherNiceProblem" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.36. Valid Sudoku">
+  <component name="RunManager" selected="Python.FindTheNum">
     <configuration name="36. Valid Sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-by-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +199,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="TT-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FindTheNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-by-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OtherNiceProblem/TT-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OtherNiceProblem/FindTheNum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,19 +273,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.TT-1" />
       <item itemvalue="Python.TT-2" />
       <item itemvalue="Python.TT-3" />
       <item itemvalue="Python.61. Rotate List" />
       <item itemvalue="Python.36. Valid Sudoku" />
+      <item itemvalue="Python.FindTheNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindTheNum" />
         <item itemvalue="Python.36. Valid Sudoku" />
         <item itemvalue="Python.61. Rotate List" />
         <item itemvalue="Python.TT-3" />
         <item itemvalue="Python.TT-2" />
-        <item itemvalue="Python.TT-1" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +304,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="1" width="1931" height="1037" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17441253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17441253" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50185674" side_tool="true" weight="0.19495413" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814323" weight="0.20412844" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814323" weight="0.20412596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -339,13 +350,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/95. Unique Binary Search Trees II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1924">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DFS/98. Validate Binary Search Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1554">
@@ -663,8 +667,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BackTracking/39. Combination Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="678">
+          <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherNiceProblem/FindTheNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
