@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6851066e-7a37-47c6-a0ae-4be9d8245dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OtherNiceProblem/TT-4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OtherNiceProblem/TT-5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/94. Binary Tree Inorder Traversal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OtherNiceProblem/TT-3.py" afterPath="$PROJECT_DIR$/OtherNiceProblem/TT-3.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TT-5.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TT-5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherNiceProblem/TT-5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
               <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="94. Binary Tree Inorder Traversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree/94. Binary Tree Inorder Traversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -107,6 +115,7 @@
         <option value="$PROJECT_DIR$/OtherNiceProblem/TT-3.py" />
         <option value="$PROJECT_DIR$/OtherNiceProblem/TT-4.py" />
         <option value="$PROJECT_DIR$/OtherNiceProblem/TT-5.py" />
+        <option value="$PROJECT_DIR$/Tree/94. Binary Tree Inorder Traversal.py" />
       </list>
     </option>
   </component>
@@ -158,7 +167,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OtherNiceProblem" />
+              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,13 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Array/34. Find First and Last Position of Element in Sorted Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Array/31. Next Permutation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -841,6 +843,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/94. Binary Tree Inorder Traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding />
         </state>
       </provider>
