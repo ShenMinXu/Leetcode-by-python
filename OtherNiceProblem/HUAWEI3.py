@@ -42,6 +42,3 @@ while i <len(help2):
     i+=1
 
 print(res)
-a = [(1,'b',3),(1,'a',4),(1,'a',3)]
-a.sort()
-print(a)
