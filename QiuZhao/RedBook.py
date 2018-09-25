@@ -58,3 +58,7 @@ print(' '.join(preorder))
 backorder = backOrder(root,[])
 backorder  = list(map(str,backorder ))
 print(' '.join(backorder))
+
+a = [1,2,3]
+a.remove(4)
+print(a)
