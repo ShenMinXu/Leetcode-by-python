@@ -29,16 +29,42 @@ class Solution:
         :type matrix: List[List[int]]
         :type target: int
         :rtype: bool
+        先对行二分查找出元素所在范围，再对列二分查找
+        Runtime: 40 ms, faster than 91.89% of Python3 online submissions for Search a 2D Matrix.
         """
+        if not matrix:
+            return False
+        if not matrix[0]:
+            return False
         row_i,row_j = 0,len(matrix)-1
         col_i,col_j = 0,len(matrix[0])-1
-        m_row,m_col = (row_i+row_j)//2,(col_i+col_j)//2
-        while m_row <= len(matrix)-1 
-            k = matrix[m_row][m_col]
-            if k == target:
+        while row_i<=row_j:
+            m_row = (row_i+row_j)//2
+            print(m_row)
+            if matrix[m_row][0] > target:
+                row_j = m_row-1
+            elif matrix[m_row][-1]< target:
+                row_i = m_row+1
+            else:
+                break
+        if row_i > row_j:
+            return False
+        while col_i<=col_j:
+
+            m_col  =(col_j+col_i)//2
+            print(m_col)
+            if matrix[m_row][m_col] == target:
                 return True
-            if  k>target:
-                print(1)
-            elif k<target:
-                print(1)
-print(3/2)
+            elif matrix[m_row][m_col] >target:
+                col_j = m_col-1
+            elif matrix[m_row][m_col] <target:
+                col_i = m_col+1
+        return False
+
+
+
+test = Solution()
+matrix = [[1]]
+target = 0
+res = test.searchMatrix(matrix,target)
+print(res)
