@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="516e2ddd-8d0e-4d71-895e-a5093d0f8c15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Two pointers/75 Sort Colors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BackTracking/77 Combinations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="74 Search a 2D Matrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Binary Research/74 Search a 2D Matrix.py">
+      <file leaf-file-name="77 Combinations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BackTracking/77 Combinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-733">
-              <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="75 Sort Colors.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Two pointers/75 Sort Colors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="259">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,6 +60,7 @@
         <option value="$PROJECT_DIR$/Array/73 Set Matrix Zeroes.py" />
         <option value="$PROJECT_DIR$/Binary Research/74 Search a 2D Matrix.py" />
         <option value="$PROJECT_DIR$/Two pointers/75 Sort Colors.py" />
+        <option value="$PROJECT_DIR$/BackTracking/77 Combinations.py" />
       </list>
     </option>
   </component>
@@ -121,7 +112,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Two pointers" />
+              <option name="myItemId" value="BackTracking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,24 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.75 Sort Colors">
-    <configuration default="false" name="55 Jump Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode-by-python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/55 Jump Game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.77 Combinations">
     <configuration default="false" name="59 Spiral Matrix II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,6 +201,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode-by-python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two pointers/75 Sort Colors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="77 Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BackTracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode-by-python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BackTracking/77 Combinations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -366,19 +357,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.55 Jump Game" />
-      <item index="1" class="java.lang.String" itemvalue="Python.59 Spiral Matrix II" />
-      <item index="2" class="java.lang.String" itemvalue="Python.73 Set Matrix Zeroes" />
-      <item index="3" class="java.lang.String" itemvalue="Python.74 Search a 2D Matrix" />
-      <item index="4" class="java.lang.String" itemvalue="Python.75 Sort Colors" />
+      <item index="0" class="java.lang.String" itemvalue="Python.59 Spiral Matrix II" />
+      <item index="1" class="java.lang.String" itemvalue="Python.73 Set Matrix Zeroes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.74 Search a 2D Matrix" />
+      <item index="3" class="java.lang.String" itemvalue="Python.75 Sort Colors" />
+      <item index="4" class="java.lang.String" itemvalue="Python.77 Combinations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.75 Sort Colors" />
-        <item index="1" class="java.lang.String" itemvalue="Python.74 Search a 2D Matrix" />
-        <item index="2" class="java.lang.String" itemvalue="Python.73 Set Matrix Zeroes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.59 Spiral Matrix II" />
-        <item index="4" class="java.lang.String" itemvalue="Python.55 Jump Game" />
+        <item index="0" class="java.lang.String" itemvalue="Python.77 Combinations" />
+        <item index="1" class="java.lang.String" itemvalue="Python.75 Sort Colors" />
+        <item index="2" class="java.lang.String" itemvalue="Python.74 Search a 2D Matrix" />
+        <item index="3" class="java.lang.String" itemvalue="Python.73 Set Matrix Zeroes" />
+        <item index="4" class="java.lang.String" itemvalue="Python.59 Spiral Matrix II" />
       </list>
     </recent_temporary>
   </component>
@@ -441,8 +432,13 @@
           <line>31</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BackTracking/77 Combinations.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -580,6 +576,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackTracking/77 Combinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding />
         </state>
       </provider>
